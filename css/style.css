@@ -1,0 +1,109 @@
+*
+{
+    font-family: 'Alegreya', serif;
+}
+.navbar
+{
+    position: fixed;
+    z-index: 222;
+    width: 100%;
+    background-color: rgba(255,255,255, 0);
+    font-size: 20px;
+}
+.head
+{
+    width: 100%;
+}
+.head img
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.head-details
+{
+    width: 40%;
+    position: absolute;
+    top: 260px;
+    left: 400px;
+    text-align: center;
+    color: #ffff;
+}
+.btn-brown
+{
+    background-color: #8e7754;
+}
+.btn
+{
+    color: #ffff;
+}
+.btn-light
+{
+    background-color: rgba(255,255, 255,.1);
+}
+.btn :hover 
+{
+    background-color: #ffff;
+    color: black;
+}
+@media screen and (max-width:950px)
+{
+    .head-details
+    {
+        width: 30%;
+        font-size: 10px;
+    }
+}
+.partOfStart
+{
+    border: solid 5px #ffff;
+    background-color: #ffff;
+    width: 40px;
+    height: 70px;
+    position: fixed;
+    top: 50px;
+    right: 0px;
+}
+.circle
+{
+    background-color: white;
+    border-radius: 55%;
+    border: .1px solid #8e7754;
+    padding: 10px;
+}
+.brown-circle
+{
+    background-color:#8e7754;
+    border-radius: 55%;
+    border: .1px solid #8e7754;
+    padding: 10px;
+}
+.fa-solid
+{
+    cursor: pointer;
+}
+/* about saction */
+
+.about-words
+{
+    width: 47%;
+    margin-left: 60px;
+    position: absolute;
+    top: 120px;
+}
+
+/* our offer saction */
+
+.our-saction
+{
+    width: 46%;
+}
+
+.fa-brands
+{
+    cursor: pointer;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 50%;
+    border: .2 solid black;
+    padding: 13px;
+}
